@@ -1,4 +1,6 @@
 add conda to git CLI
+
+
 ----------------------------------------
 C:\Program Files\Miniconda3\etc\profile.d
 
