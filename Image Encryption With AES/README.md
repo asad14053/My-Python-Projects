@@ -1,4 +1,4 @@
-# image-encryptor
+# Image-Encryption with AES
 **Python app to encrypt images using AES**
 
 Basic encryption of an image. First, the image to be encrypted is parsed as a binary and then an alphanumeric key is taken from the user. SHA256 hashing is used to increase the security of data by creation of a checksum purposed to represent private information. The process works by passing information as input to a hash function and using a returned hash string to represent the encrypted key. We then create the AES cipher and use it along with the hash string to encrypt the image.
